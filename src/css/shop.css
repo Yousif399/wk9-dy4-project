@@ -1,0 +1,46 @@
+#shop{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0%;
+    margin: 0;
+}
+.img-shop{
+    width: 650px;
+    height: 700px;
+    max-height: 700px;
+    display: flex;
+}
+.body{
+    font-size: 65px;
+}
+
+#txt-shop{
+    display: flex;
+    margin: auto;
+    font-size: 45px;
+}
+#title-shop{
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: 600;
+}
+.other-txt{
+    font-weight: 550;
+}
+
+.add-btn{
+    margin: 5px;
+    
+}
+button.img-btn{
+    outline: none;
+    color: rgba(240, 248, 255, 0);
+    background-color: rgba(230, 230, 230, 0);
+    border: none;
+   
+}
+button.img-btn :hover{
+    color: black;
+    background: black;
+}

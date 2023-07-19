@@ -1,0 +1,14 @@
+#navbar {
+    color: rgb(147, 17, 152);
+
+}
+
+.cart-cont {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    border: 2px solid rgb(41, 25, 25);
+    border-radius: 10px;
+}
