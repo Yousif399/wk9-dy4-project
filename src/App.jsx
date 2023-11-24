@@ -7,6 +7,7 @@ import Cart from './view/cart'
 import BikeInfo from './view/bike'
 import { Routes,Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Checkout from './view/Checkout'
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route  path='/shop' element={<Shop/>} />
         <Route path='/bike' element={<BikeInfo />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/check-out' element={<Checkout />} />
       </Routes>
        </div>
     </>

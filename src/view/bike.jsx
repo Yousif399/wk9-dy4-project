@@ -39,8 +39,8 @@ const BikeInfo = () => {
       {Object.values(cart.bike).map((b, index) => {
 
         return (
-          <>
-            <div className="container" key={b.index}>
+          
+            <div className="container" key={index}>
               <div className="row">
                 <div className="col-4">
                   <img src={b.data.img} alt={b.data.title} height='250' width=''></img>
@@ -63,7 +63,7 @@ const BikeInfo = () => {
                 <hr></hr>
               </div>
             </div>
-          </>
+          
         )
 
       })}
